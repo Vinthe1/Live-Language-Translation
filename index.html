@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Live Language Translation</title>
+</head>
+<body>
+    <h1>Live Language Translation</h1>
+    <div>
+        <label for="sourceLang">Source Language:</label>
+        <select id="sourceLang">
+            <option value="en">English</option>
+            <!-- Add more language options here -->
+        </select>
+    </div>
+    <div>
+        <label for="targetLang">Target Language:</label>
+        <select id="targetLang">
+            <option value="es">Spanish</option>
+            <!-- Add more language options here -->
+        </select>
+    </div>
+    <div>
+        <textarea id="sourceText" placeholder="Enter text to translate"></textarea>
+    </div>
+    <div>
+        <button id="translateBtn">Translate</button>
+    </div>
+    <div>
+        <p>Translated Text:</p>
+        <p id="translatedText"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
